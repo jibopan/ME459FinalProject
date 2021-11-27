@@ -1,4 +1,5 @@
 import  pygame, time, random
+import self as self
 
 
 class MainGame():
@@ -22,7 +23,42 @@ class MainGame():
     Explode_list = []
     # list of wall
     Wall_list = []
+    def __init__(self):
+        pass
     def startgame(self):
-
+        pass
     def endgame(self):
         exit()
+class tank()
+    def __init__(self):
+        pass
+    def move(self):
+        pass
+    def shoot(self):
+        pass
+    def displaytank(self):
+        pass
+class ourtank(tank):
+    def __init__(self):
+        pass
+class enemytank(tank):
+    def __init__(self):
+        pass
+class ammo(self):
+    def __init__(self):
+        pass
+    def move(self):
+        pass
+    def displayammo(self):
+        pass
+class explode(self):
+    def __init__(self):
+        pass
+    def displayexplode(self):
+        pass
+class wall(self):
+    def __init__(self):
+        pass
+    def displaywall(self):
+        pass
+
